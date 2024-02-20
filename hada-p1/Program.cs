@@ -31,6 +31,11 @@ namespace hada_p1
                     result = HadaP1.Minutes2Seconds(cant);
                     Console.WriteLine("La cantidad de " + cant + " minutos equivale a " + result + " segundos.");
                 }
+                else if (unidad == "horas")
+                {
+                    result = HadaP1.Hours2Minutes(cant);
+                    Console.WriteLine("La cantidad de " + cant + " horas equivale a " + result + " minutos.");
+                }
 
                 Console.WriteLine("¿Quieres seguir?(s/n): ");
                 opc = Console.ReadLine();
