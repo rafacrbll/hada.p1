@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace hada_p1
 {
-    //Esta clase controla los métodos de tiempo en segundos y minutos
+    //Esta clase controla los métodos
+    //de tiempo en segundos y minutos
     class HadaP1
     {
         //Este método cambia de segundos a minutos
